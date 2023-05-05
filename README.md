@@ -5,11 +5,15 @@ This project is a code storage app that can not only be activated through the he
 ## Demo
 https://fierce-taiga-99234.herokuapp.com/
 ### Terminal Boot Up:
-WM-Screenshots-20230504204943.png
+![WM-Screenshots-20230504204943](https://user-images.githubusercontent.com/116858656/236374952-887bf83b-5933-434d-83fa-1e7519b9ada4.png)
+
 ### Website Version:
-WM-Screenshots-20230504205237.png
+![WM-Screenshots-20230504205237](https://user-images.githubusercontent.com/116858656/236374965-b74b7607-5f3f-4dba-b96c-1874dac0aa6c.png)
+
 ### Local Application Version:
-WM-Screenshots-20230504205435.png
+![WM-Screenshots-20230504205435](https://user-images.githubusercontent.com/116858656/236374979-6f35f31d-83d1-4657-a83a-569153d9d063.png)
+![WM-Screenshots-20230504205919](https://user-images.githubusercontent.com/116858656/236375098-88a3989b-a24b-4f84-8e3d-a49e19022730.png)
+
 ## Installation
 In order to install this application and open it up onto the internet browser, you must be able to use service workers, injectManifest, WebpackPwaManifest, babel, htmlWebpack-plugin, and in order to start the port, you must npm run install to receive the dependencies and install webpacks.  Every webpack addressed will need to be installed locally onto your client server in order to activate the code.  After this is complete, you must npm run start the project.
 ## Usage

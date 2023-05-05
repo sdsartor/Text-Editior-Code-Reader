@@ -1,5 +1,5 @@
 import { openDB } from 'idb';
-
+// The code below uses the import above and adds a function that waits before running.
 const initdb = async () =>
   openDB('jate', 1, {
     upgrade(db) {
@@ -12,7 +12,7 @@ const initdb = async () =>
     },
   });
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
+// The data will be posted using the data below.
 export const putDb = async (content) => {
 console.log('Post data to the database');
 
@@ -25,7 +25,7 @@ console.log('The database has received your request!🚀', result);
 };
 
 
-
+// Added code allows for the database to look for code and then establish a connection before running the many consts below.
 export const getDb = async () => {
 console.log('Database is receiving data');
 const jateDb = await openDB('jate', 1);
@@ -37,5 +37,5 @@ console.log('result.value', 'The database has received your request!🚀', resul
 return result;
 };
 
-
+// This calls and activates the function in all places above.
 initdb();

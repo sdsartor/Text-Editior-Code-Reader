@@ -9,6 +9,7 @@ module.exports = () => {
   return {
     mode: "development",
     entry: {
+      // Added multiple locations for each js page to link to the .npmrc.
       main: "./src/js/index.js",
       install: "./src/js/install.js",
       database: './src/js/database.js',
@@ -22,12 +23,13 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Contact Cards'
+        title: 'jate'
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: '.src-sw.js',
       }),
+      // all webpacks were added to make it easier to activate the pwa application.
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
