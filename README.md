@@ -15,11 +15,11 @@ https://fierce-taiga-99234.herokuapp.com/
 ![WM-Screenshots-20230504205919](https://user-images.githubusercontent.com/116858656/236375098-88a3989b-a24b-4f84-8e3d-a49e19022730.png)
 
 ## Installation
-In order to install this application and open it up onto the internet browser, you must be able to use service workers, injectManifest, WebpackPwaManifest, babel, htmlWebpack-plugin, and in order to start the port, you must npm run install to receive the dependencies and install webpacks.  Every webpack addressed will need to be installed locally onto your client server in order to activate the code.  After this is complete, you must npm run start the project.
+In order to install this application and open it up onto the internet browser, you must be able to use `service workers`, `injectManifest`, `WebpackPwaManifest`, `babel`, `htmlWebpack-plugin`, and in order to start the port, you must npm run install to receive the dependencies and install webpacks.  Every webpack addressed will need to be installed locally onto your client server in order to activate the code.  After this is complete, you must npm run start the project.
 ## Usage
 In order to use the project, you must be able to use Pwa, npm, have the installed dependencies locally, this should be installed by npm run install the cloned code as it is all set up in the package.json.  Using babel is necessary to downgrade the code to be universally accessible.  It is necessary to elaborate on the script in the package.json to make the npm understand the commands and what they refer to.
 ## Credits
-Babel, htmlWebpack-plugin, injectManifest, service workers, idb, dot.env, concurrently, webpack-dev-server, webpack-pwa-manifest, css-loader
+`Babel`, `htmlWebpack-plugin`, `injectManifest`, `service workers`, `idb`, `dotenv`, `concurrently`, `webpack-dev-server`, `webpack-pwa-manifest`, `css-loader`
 ## License
 MIT License Copyright (c) 2022 Matthew Sartor
 
