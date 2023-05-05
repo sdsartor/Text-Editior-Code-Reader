@@ -3,6 +3,13 @@ https://github.com/sdsartor/Text-Editor-Code-Reader
 ## Description
 This project is a code storage app that can not only be activated through the heroku app, but can also be installed locally onto your computer.  This project uses the concepts of PWA to establish connections to not only a port, but to an app creating template.  The code makes it easy to save notes written in code and establish a way to store it on your computer.
 ## Demo
+https://fierce-taiga-99234.herokuapp.com/
+### Terminal Boot Up:
+WM-Screenshots-20230504204943.png
+### Website Version:
+WM-Screenshots-20230504205237.png
+### Local Application Version:
+WM-Screenshots-20230504205435.png
 ## Installation
 In order to install this application and open it up onto the internet browser, you must be able to use service workers, injectManifest, WebpackPwaManifest, babel, htmlWebpack-plugin, and in order to start the port, you must npm run install to receive the dependencies and install webpacks.  Every webpack addressed will need to be installed locally onto your client server in order to activate the code.  After this is complete, you must npm run start the project.
 ## Usage
